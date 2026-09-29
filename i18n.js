@@ -28,7 +28,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Record or import a conversation. MEMRYA turns it into a searchable memory — with transcript, summary, decisions, tasks, people and evidence you can come back to.',
       "hero.cta": "Contact MEMRYA",
       'hero.seeMore': 'See what MEMRYA remembers',
-      'hero.proof1': 'Automatic language detection',
+      "hero.proof1": "Automatic detection across up to 99 languages",
       'hero.proof2': 'Speaker diarization',
       'hero.proof3': 'Grounded AI answers',
       'hero.phoneLabel': 'Live memory',
@@ -99,9 +99,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'MEMRYA tracks who was in a conversation and what mattered to them, so context can carry forward into the conversations that come next.',
 
       // multilingual
-      'multilingual.eyebrow': 'Multilingual',
-      'multilingual.title': 'Your conversations, in your languages.',
-      'multilingual.desc': 'The MEMRYA interface is available in seven languages, including true right-to-left support for Arabic. Spoken language and result language are handled separately, and results default to the language of the conversation.',
+      "multilingual.eyebrow": "99-language conversation support",
+      "multilingual.title": "Up to 99 spoken languages.",
+      "multilingual.statLabel": "supported spoken languages",
+      "multilingual.desc": "MEMRYA can automatically detect and transcribe up to 99 provider-supported spoken languages. The interface is available in seven languages, spoken language and result language are handled separately, and results default to the language of the conversation. Quality can vary by language and audio.",
       'multilingual.cta': 'Try the language switcher above.',
 
       // import / integrations
@@ -161,7 +162,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'Is Voice Identity available now?',
       'faq.a2': 'Not yet. Voice Identity is designed for explicit enrollment and on-device profile storage, and it is still in validation. Weak or ambiguous matches are shown as suggestions, never guesses.',
       'faq.q3': 'Which languages does MEMRYA support?',
-      'faq.a3': 'The interface is available in English, Arabic, Spanish, French, German, Portuguese and Italian, with true right-to-left layout for Arabic. The processing providers behind transcription cover a broader set of languages, though quality is not equal across every one of them.',
+      "faq.a3": "MEMRYA can automatically detect and transcribe up to 99 provider-supported spoken languages. The interface is available in English, Arabic, Spanish, French, German, Portuguese and Italian. Quality can vary by language and audio.",
       'faq.q4': 'Can I import from Zoom or Google Meet?',
       'faq.a4': 'Zoom cloud-recording import architecture exists but is not yet publicly enabled. Google Meet is planned after Zoom, and Microsoft Teams later. Importing existing audio you already have works today.',
       'faq.q5': 'How much will MEMRYA cost?',
@@ -269,7 +270,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'سجّل محادثة أو استوردها. يحوّلها MEMRYA إلى ذاكرة قابلة للبحث — بنص كامل وملخص وقرارات ومهام وأشخاص وأدلة يمكنك العودة إليها.',
       "hero.cta": "تواصل مع MEMRYA",
       'hero.seeMore': 'شاهد ما تتذكره MEMRYA',
-      'hero.proof1': 'كشف تلقائي للغة',
+      "hero.proof1": "كشف تلقائي لما يصل إلى 99 لغة",
       'hero.proof2': 'فصل المتحدثين',
       'hero.proof3': 'إجابات ذكاء اصطناعي مبنية على مصدر موثوق',
       'hero.phoneLabel': 'ذاكرة حيّة',
@@ -340,9 +341,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'تتابع MEMRYA من كان في المحادثة وما كان مهمًا بالنسبة لهم، بحيث يمكن للسياق أن يستمر إلى المحادثات القادمة.',
 
       // multilingual
-      'multilingual.eyebrow': 'متعدد اللغات',
-      'multilingual.title': 'محادثاتك، بلغاتك.',
-      'multilingual.desc': 'واجهة MEMRYA متاحة بسبع لغات، بما في ذلك دعم حقيقي للكتابة من اليمين إلى اليسار للعربية. تُعالج لغة الحديث ولغة النتائج بشكل منفصل، وتُعرض النتائج افتراضيًا بلغة المحادثة نفسها.',
+      "multilingual.eyebrow": "دعم محادثات بـ 99 لغة",
+      "multilingual.title": "حتى 99 لغة منطوقة.",
+      "multilingual.statLabel": "لغة منطوقة مدعومة",
+      "multilingual.desc": "يمكن لـ MEMRYA اكتشاف لغة الحديث تلقائيًا وتفريغ ما يصل إلى 99 لغة منطوقة يدعمها مزود المعالجة. الواجهة متاحة بسبع لغات، ويتم التعامل مع لغة الحديث ولغة النتائج بشكل منفصل، وتُعرض النتائج افتراضيًا بلغة المحادثة. قد تختلف الجودة حسب اللغة وجودة الصوت.",
       'multilingual.cta': 'جرّب مبدّل اللغة أعلاه.',
 
       // import / integrations
@@ -402,7 +404,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'هل هوية الصوت متاحة الآن؟',
       'faq.a2': 'ليس بعد. صُممت هوية الصوت للتسجيل الصريح وتخزين الملف الشخصي على الجهاز، ولا تزال قيد التحقق. تُعرض التطابقات الضعيفة أو غير المؤكدة كاقتراحات فقط، وليست تخمينات أبدًا.',
       'faq.q3': 'ما هي اللغات التي تدعمها MEMRYA؟',
-      'faq.a3': 'الواجهة متاحة بالإنجليزية والعربية والإسبانية والفرنسية والألمانية والبرتغالية والإيطالية، مع تخطيط حقيقي من اليمين إلى اليسار للعربية. تغطي جهات معالجة التفريغ الصوتي مجموعة أوسع من اللغات، لكن الجودة ليست متساوية بينها جميعًا.',
+      "faq.a3": "يمكن لـ MEMRYA اكتشاف لغة الحديث تلقائيًا وتفريغ ما يصل إلى 99 لغة منطوقة يدعمها مزود المعالجة. الواجهة متاحة بالإنجليزية والعربية والإسبانية والفرنسية والألمانية والبرتغالية والإيطالية. قد تختلف الجودة حسب اللغة وجودة الصوت.",
       'faq.q4': 'هل يمكنني الاستيراد من Zoom أو Google Meet؟',
       'faq.a4': 'بنية استيراد تسجيلات Zoom السحابية موجودة لكنها غير مفعَّلة للعموم بعد. Google Meet مخطط له بعد Zoom، وMicrosoft Teams لاحقًا. استيراد التسجيلات الصوتية التي لديك بالفعل يعمل اليوم.',
       'faq.q5': 'كم ستكلّف MEMRYA؟',
@@ -509,7 +511,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Graba o importa una conversación. MEMRYA la convierte en una memoria en la que puedes buscar: con transcripción, resumen, decisiones, tareas, personas y evidencia a la que puedes volver.',
       "hero.cta": "Contactar con MEMRYA",
       'hero.seeMore': 'Mira lo que recuerda MEMRYA',
-      'hero.proof1': 'Detección automática de idioma',
+      "hero.proof1": "Detección automática de hasta 99 idiomas",
       'hero.proof2': 'Diarización de hablantes',
       'hero.proof3': 'Respuestas de IA basadas en evidencia',
       'hero.phoneLabel': 'MEMORIA EN VIVO',
@@ -580,9 +582,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'MEMRYA hace seguimiento de quién estuvo en una conversación y qué les importó, para que el contexto pueda continuar en las conversaciones siguientes.',
 
       // multilingual
-      'multilingual.eyebrow': 'MULTILINGÜE',
-      'multilingual.title': 'Tus conversaciones, en tus idiomas.',
-      'multilingual.desc': 'La interfaz de MEMRYA está disponible en siete idiomas, incluido soporte real de derecha a izquierda para árabe. El idioma hablado y el idioma de resultados se gestionan por separado, y los resultados usan por defecto el idioma de la conversación.',
+      "multilingual.eyebrow": "Conversaciones en 99 idiomas",
+      "multilingual.title": "Hasta 99 idiomas hablados.",
+      "multilingual.statLabel": "idiomas hablados compatibles",
+      "multilingual.desc": "MEMRYA puede detectar automáticamente y transcribir hasta 99 idiomas hablados compatibles con el proveedor. La interfaz está disponible en siete idiomas, el idioma hablado y el idioma de los resultados se gestionan por separado, y los resultados usan por defecto el idioma de la conversación. La calidad puede variar según el idioma y el audio.",
       'multilingual.cta': 'Prueba el selector de idioma de arriba.',
 
       // import / integrations
@@ -642,7 +645,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': '¿Está disponible la identidad de voz ahora?',
       'faq.a2': 'Todavía no. La identidad de voz está diseñada para una inscripción explícita y almacenamiento del perfil en el dispositivo, y todavía está en validación. Las coincidencias débiles o ambiguas se muestran como sugerencias, nunca como adivinanzas.',
       'faq.q3': '¿Qué idiomas admite MEMRYA?',
-      'faq.a3': 'La interfaz está disponible en inglés, árabe, español, francés, alemán, portugués e italiano, con un diseño real de derecha a izquierda para árabe. Los proveedores de procesamiento detrás de la transcripción cubren un conjunto más amplio de idiomas, aunque la calidad no es igual en todos ellos.',
+      "faq.a3": "MEMRYA puede detectar automáticamente y transcribir hasta 99 idiomas hablados compatibles con el proveedor. La interfaz está disponible en inglés, árabe, español, francés, alemán, portugués e italiano. La calidad puede variar según el idioma y el audio.",
       'faq.q4': '¿Puedo importar desde Zoom o Google Meet?',
       'faq.a4': 'La arquitectura de importación de grabaciones en la nube de Zoom existe pero aún no está habilitada públicamente. Google Meet está planeado después de Zoom, y Microsoft Teams más adelante. Importar el audio que ya tienes funciona hoy.',
       'faq.q5': '¿Cuánto costará MEMRYA?',
@@ -750,7 +753,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Enregistrez ou importez une conversation. MEMRYA la transforme en une mémoire consultable, avec transcription, résumé, décisions, tâches, personnes et preuves auxquelles vous pouvez revenir.',
       "hero.cta": "Contacter MEMRYA",
       'hero.seeMore': 'Voir ce dont MEMRYA se souvient',
-      'hero.proof1': 'Détection automatique de la langue',
+      "hero.proof1": "Détection automatique jusqu’à 99 langues",
       'hero.proof2': 'Diarisation des locuteurs',
       'hero.proof3': 'Réponses IA fondées sur des preuves',
       'hero.phoneLabel': 'MÉMOIRE EN DIRECT',
@@ -821,9 +824,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'MEMRYA garde la trace de qui était présent dans une conversation et de ce qui comptait pour ces personnes, afin que le contexte puisse se poursuivre dans les conversations suivantes.',
 
       // multilingual
-      'multilingual.eyebrow': 'MULTILINGUE',
-      'multilingual.title': 'Vos conversations, dans vos langues.',
-      'multilingual.desc': 'L\'interface MEMRYA est disponible en sept langues, avec une véritable prise en charge de droite à gauche pour l\'arabe. La langue parlée et la langue des résultats sont gérées séparément, et les résultats utilisent par défaut la langue de la conversation.',
+      "multilingual.eyebrow": "Conversations en 99 langues",
+      "multilingual.title": "Jusqu’à 99 langues parlées.",
+      "multilingual.statLabel": "langues parlées prises en charge",
+      "multilingual.desc": "MEMRYA peut détecter automatiquement et transcrire jusqu’à 99 langues parlées prises en charge par le fournisseur. L’interface est disponible en sept langues, la langue parlée et la langue des résultats sont gérées séparément, et les résultats utilisent par défaut la langue de la conversation. La qualité peut varier selon la langue et l’audio.",
       'multilingual.cta': 'Essayez le sélecteur de langue ci-dessus.',
 
       // import / integrations
@@ -883,7 +887,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'L\'identité vocale est-elle disponible maintenant ?',
       'faq.a2': 'Pas encore. L\'identité vocale est conçue pour une inscription explicite et un stockage du profil sur l\'appareil, et elle est encore en validation. Les correspondances faibles ou ambiguës sont présentées comme des suggestions, jamais comme des suppositions.',
       'faq.q3': 'Quelles langues MEMRYA prend-il en charge ?',
-      'faq.a3': 'L\'interface est disponible en anglais, arabe, espagnol, français, allemand, portugais et italien, avec une véritable mise en page de droite à gauche pour l\'arabe. Les fournisseurs de traitement derrière la transcription couvrent un ensemble plus large de langues, bien que la qualité ne soit pas égale pour chacune d\'elles.',
+      "faq.a3": "MEMRYA peut détecter automatiquement et transcrire jusqu’à 99 langues parlées prises en charge par le fournisseur. L’interface est disponible en anglais, arabe, espagnol, français, allemand, portugais et italien. La qualité peut varier selon la langue et l’audio.",
       'faq.q4': 'Puis-je importer depuis Zoom ou Google Meet ?',
       'faq.a4': 'L\'architecture d\'importation des enregistrements cloud Zoom existe mais n\'est pas encore activée publiquement. Google Meet est prévu après Zoom, et Microsoft Teams plus tard. L\'importation d\'un audio que vous possédez déjà fonctionne dès aujourd\'hui.',
       'faq.q5': 'Combien coûtera MEMRYA ?',
@@ -991,7 +995,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Nimm ein Gespräch auf oder importiere es. MEMRYA verwandelt es in ein durchsuchbares Gedächtnis — mit Transkript, Zusammenfassung, Entscheidungen, Aufgaben, Personen und Belegen, zu denen du zurückkehren kannst.',
       "hero.cta": "MEMRYA kontaktieren",
       'hero.seeMore': 'Sehen, woran sich MEMRYA erinnert',
-      'hero.proof1': 'Automatische Spracherkennung',
+      "hero.proof1": "Automatische Erkennung von bis zu 99 Sprachen",
       'hero.proof2': 'Sprechererkennung (Diarisation)',
       'hero.proof3': 'Fundierte KI-Antworten',
       'hero.phoneLabel': 'LIVE-GEDÄCHTNIS',
@@ -1062,9 +1066,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'MEMRYA verfolgt, wer an einem Gespräch beteiligt war und was ihnen wichtig war, damit der Kontext in die nächsten Gespräche mitgenommen werden kann.',
 
       // multilingual
-      'multilingual.eyebrow': 'MEHRSPRACHIG',
-      'multilingual.title': 'Deine Gespräche, in deinen Sprachen.',
-      'multilingual.desc': 'Die MEMRYA-Oberfläche ist in sieben Sprachen verfügbar, einschließlich echter Rechts-nach-links-Unterstützung für Arabisch. Gesprochene Sprache und Ergebnissprache werden getrennt behandelt, und Ergebnisse verwenden standardmäßig die Sprache des Gesprächs.',
+      "multilingual.eyebrow": "Gespräche in 99 Sprachen",
+      "multilingual.title": "Bis zu 99 gesprochene Sprachen.",
+      "multilingual.statLabel": "unterstützte gesprochene Sprachen",
+      "multilingual.desc": "MEMRYA kann bis zu 99 vom Anbieter unterstützte gesprochene Sprachen automatisch erkennen und transkribieren. Die Oberfläche ist in sieben Sprachen verfügbar, gesprochene Sprache und Ergebnissprache werden getrennt behandelt, und Ergebnisse verwenden standardmäßig die Sprache des Gesprächs. Die Qualität kann je nach Sprache und Audio variieren.",
       'multilingual.cta': 'Probiere den Sprachumschalter oben aus.',
 
       // import / integrations
@@ -1124,7 +1129,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'Ist die Stimmidentität jetzt verfügbar?',
       'faq.a2': 'Noch nicht. Die Stimmidentität ist für eine explizite Registrierung und geräteinterne Profilspeicherung konzipiert und befindet sich noch in der Validierung. Schwache oder mehrdeutige Übereinstimmungen werden als Vorschläge angezeigt, nie als Vermutungen.',
       'faq.q3': 'Welche Sprachen unterstützt MEMRYA?',
-      'faq.a3': 'Die Oberfläche ist in Englisch, Arabisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch verfügbar, mit echtem Rechts-nach-links-Layout für Arabisch. Die Verarbeitungsanbieter hinter der Transkription decken einen breiteren Sprachumfang ab, wobei die Qualität nicht bei jeder Sprache gleich ist.',
+      "faq.a3": "MEMRYA kann bis zu 99 vom Anbieter unterstützte gesprochene Sprachen automatisch erkennen und transkribieren. Die Oberfläche ist in Englisch, Arabisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch verfügbar. Die Qualität kann je nach Sprache und Audio variieren.",
       'faq.q4': 'Kann ich aus Zoom oder Google Meet importieren?',
       'faq.a4': 'Die Architektur für den Import von Zoom-Cloud-Aufzeichnungen existiert, ist aber noch nicht öffentlich aktiviert. Google Meet ist nach Zoom geplant, Microsoft Teams später. Der Import bereits vorhandenen Audios funktioniert schon heute.',
       'faq.q5': 'Wie viel wird MEMRYA kosten?',
@@ -1232,7 +1237,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Grave ou importe uma conversa. A MEMRYA a transforma em uma memória pesquisável — com transcrição, resumo, decisões, tarefas, pessoas e evidências às quais você pode voltar.',
       "hero.cta": "Contactar a MEMRYA",
       'hero.seeMore': 'Veja o que a MEMRYA lembra',
-      'hero.proof1': 'Detecção automática de idioma',
+      "hero.proof1": "Deteção automática de até 99 idiomas",
       'hero.proof2': 'Diarização de locutores',
       'hero.proof3': 'Respostas de IA fundamentadas',
       'hero.phoneLabel': 'MEMÓRIA AO VIVO',
@@ -1303,9 +1308,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'A MEMRYA acompanha quem participou de uma conversa e o que importava para elas, para que o contexto possa seguir para as próximas conversas.',
 
       // multilingual
-      'multilingual.eyebrow': 'MULTILÍNGUE',
-      'multilingual.title': 'Suas conversas, nos seus idiomas.',
-      'multilingual.desc': 'A interface da MEMRYA está disponível em sete idiomas, incluindo suporte real da direita para a esquerda para árabe. O idioma falado e o idioma dos resultados são tratados separadamente, e os resultados usam por padrão o idioma da conversa.',
+      "multilingual.eyebrow": "Conversas em 99 idiomas",
+      "multilingual.title": "Até 99 idiomas falados.",
+      "multilingual.statLabel": "idiomas falados suportados",
+      "multilingual.desc": "A MEMRYA consegue detetar automaticamente e transcrever até 99 idiomas falados suportados pelo fornecedor. A interface está disponível em sete idiomas, o idioma falado e o idioma dos resultados são tratados separadamente, e os resultados usam por defeito o idioma da conversa. A qualidade pode variar consoante o idioma e o áudio.",
       'multilingual.cta': 'Experimente o seletor de idioma acima.',
 
       // import / integrations
@@ -1365,7 +1371,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'A identidade de voz está disponível agora?',
       'faq.a2': 'Ainda não. A identidade de voz é projetada para inscrição explícita e armazenamento do perfil no dispositivo, e ainda está em validação. Correspondências fracas ou ambíguas são mostradas como sugestões, nunca como suposições.',
       'faq.q3': 'Quais idiomas a MEMRYA suporta?',
-      'faq.a3': 'A interface está disponível em inglês, árabe, espanhol, francês, alemão, português e italiano, com layout real da direita para a esquerda para árabe. Os provedores de processamento por trás da transcrição cobrem um conjunto mais amplo de idiomas, embora a qualidade não seja igual em todos eles.',
+      "faq.a3": "A MEMRYA consegue detetar automaticamente e transcrever até 99 idiomas falados suportados pelo fornecedor. A interface está disponível em inglês, árabe, espanhol, francês, alemão, português e italiano. A qualidade pode variar consoante o idioma e o áudio.",
       'faq.q4': 'Posso importar do Zoom ou do Google Meet?',
       'faq.a4': 'A arquitetura de importação de gravações na nuvem do Zoom existe, mas ainda não está ativada publicamente. O Google Meet está planejado após o Zoom, e o Microsoft Teams mais tarde. A importação de áudio que você já tem funciona hoje.',
       'faq.q5': 'Quanto vai custar a MEMRYA?',
@@ -1473,7 +1479,7 @@ window.MEMRYA_I18N = (() => {
       'hero.lede': 'Registra o importa una conversazione. MEMRYA la trasforma in una memoria ricercabile — con trascrizione, riepilogo, decisioni, attività, persone e prove a cui puoi tornare.',
       "hero.cta": "Contatta MEMRYA",
       'hero.seeMore': 'Scopri cosa ricorda MEMRYA',
-      'hero.proof1': 'Rilevamento automatico della lingua',
+      "hero.proof1": "Rilevamento automatico fino a 99 lingue",
       'hero.proof2': 'Diarizzazione dei parlanti',
       'hero.proof3': 'Risposte AI basate su prove',
       'hero.phoneLabel': 'MEMORIA IN DIRETTA',
@@ -1544,9 +1550,10 @@ window.MEMRYA_I18N = (() => {
       'people.desc': 'MEMRYA tiene traccia di chi era presente in una conversazione e di cosa contava per loro, così il contesto può proseguire nelle conversazioni successive.',
 
       // multilingual
-      'multilingual.eyebrow': 'MULTILINGUE',
-      'multilingual.title': 'Le tue conversazioni, nelle tue lingue.',
-      'multilingual.desc': 'L\'interfaccia di MEMRYA è disponibile in sette lingue, incluso un vero supporto da destra a sinistra per arabo. La lingua parlata e la lingua dei risultati sono gestite separatamente, e i risultati usano di default la lingua della conversazione.',
+      "multilingual.eyebrow": "Conversazioni in 99 lingue",
+      "multilingual.title": "Fino a 99 lingue parlate.",
+      "multilingual.statLabel": "lingue parlate supportate",
+      "multilingual.desc": "MEMRYA può rilevare automaticamente e trascrivere fino a 99 lingue parlate supportate dal provider. L’interfaccia è disponibile in sette lingue, la lingua parlata e la lingua dei risultati sono gestite separatamente, e i risultati usano di default la lingua della conversazione. La qualità può variare in base alla lingua e all’audio.",
       'multilingual.cta': 'Prova il selettore della lingua qui sopra.',
 
       // import / integrations
@@ -1606,7 +1613,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': "L'identità vocale è disponibile adesso?",
       'faq.a2': "L'identità vocale è progettata per l'iscrizione esplicita e l'archiviazione del profilo sul dispositivo, ed è ancora in validazione. Le corrispondenze deboli o ambigue vengono mostrate come suggerimenti, mai come supposizioni.",
       'faq.q3': 'Quali lingue supporta MEMRYA?',
-      'faq.a3': "L'interfaccia è disponibile in inglese, arabo, spagnolo, francese, tedesco, portoghese e italiano, con un vero layout da destra a sinistra per arabo. I fornitori di elaborazione dietro la trascrizione coprono un insieme più ampio di lingue, anche se la qualità non è uguale per ognuna di esse.",
+      "faq.a3": "MEMRYA può rilevare automaticamente e trascrivere fino a 99 lingue parlate supportate dal provider. L’interfaccia è disponibile in inglese, arabo, spagnolo, francese, tedesco, portoghese e italiano. La qualità può variare in base alla lingua e all’audio.",
       'faq.q4': 'Posso importare da Zoom o Google Meet?',
       'faq.a4': "L'architettura di importazione delle registrazioni cloud di Zoom esiste ma non è ancora attivata pubblicamente. Google Meet è pianificato dopo Zoom, e Microsoft Teams più avanti. L'importazione di audio che hai già funziona da oggi.",
       'faq.q5': 'Quanto costerà MEMRYA?',

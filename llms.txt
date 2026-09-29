@@ -13,7 +13,7 @@
 
 - Public UI languages: English, Arabic, Spanish, French, German, Portuguese, Italian. Arabic renders true RTL.
 - Spoken Language and Result Language are separate settings; Result Language defaults to the language of the conversation.
-- Processing providers cover more languages than the public UI, and quality can vary by language and provider.
+- Automatic spoken-language detection and transcription cover up to 99 provider-supported languages. The public UI is available in seven languages. Quality can vary by language, audio and provider.
 
 ## Billing
 
