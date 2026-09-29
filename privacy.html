@@ -8,18 +8,26 @@
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta property="og:title" content="Privacy ג€” MEMRYA">
+  <meta property="og:title" content="Privacy — MEMRYA">
   <meta property="og:description" content="How MEMRYA handles recordings, transcripts and account data, and what is still being finalized before public launch.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MEMRYA">
   <meta property="og:url" content="https://memrya.co/privacy.html">
-  <meta property="og:image" content="https://memrya.co/assets/icon.png">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Privacy ג€” MEMRYA">
+  <meta property="og:image" content="https://memrya.co/assets/og-memrya-v2.png">
+  <meta property="og:image:secure_url" content="https://memrya.co/assets/og-memrya-v2.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="MEMRYA — Your conversations, remembered.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy — MEMRYA">
   <meta name="twitter:description" content="How MEMRYA handles recordings, transcripts and account data, and what is still being finalized before public launch.">
+  <meta name="twitter:image" content="https://memrya.co/assets/og-memrya-v2.png">
+  <meta name="twitter:image:alt" content="MEMRYA — Your conversations, remembered.">
   <link rel="canonical" href="https://memrya.co/privacy.html">
   <link rel="icon" href="./assets/icon.png">
   <link rel="stylesheet" href="./styles.css">
-  <title>Privacy ג€” MEMRYA</title>
+  <title>Privacy — MEMRYA</title>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -70,10 +78,10 @@
           <p>MEMRYA's core flow is recording or importing a conversation, then uploading, transcribing and analyzing it to produce a summary, evidence and grounded answers you can search later. Audio you record or import is the basis for everything else the product creates.</p>
 
           <h2>Where processing happens</h2>
-          <p>Recording on your device is local. When you choose cloud processing, your audio and transcript may be sent securely to approved processing providers to perform transcription and analysis. This only happens after you choose processing ג€” it is not automatic or hidden.</p>
+          <p>Recording on your device is local. When you choose cloud processing, your audio and transcript may be sent securely to approved processing providers to perform transcription and analysis. This only happens after you choose processing — it is not automatic or hidden.</p>
 
           <h2>Storage and access</h2>
-          <p>Cloud storage is private, and access is scoped to the account that owns the data. Tenant isolation ג€” keeping each account's data separate from every other account ג€” is treated as a product invariant, not an optional setting.</p>
+          <p>Cloud storage is private, and access is scoped to the account that owns the data. Tenant isolation — keeping each account's data separate from every other account — is treated as a product invariant, not an optional setting.</p>
 
           <h2>Secrets and keys</h2>
           <p>Provider and API secrets used to talk to processing providers live server-side. They are never embedded in the mobile client.</p>
@@ -82,7 +90,7 @@
           <p>We do not claim end-to-end encryption. Data is protected through private, owner-scoped cloud storage and server-side secret handling as described above, not through an end-to-end encryption guarantee.</p>
 
           <h2>Voice Identity</h2>
-          <p>Voice Identity ג€” recognizing a voice across conversations ג€” is designed for explicit enrollment and local, on-device profile storage. It is still in validation and is not generally available. Weak or ambiguous matches are surfaced only as suggestions, never as guesses.</p>
+          <p>Voice Identity — recognizing a voice across conversations — is designed for explicit enrollment and local, on-device profile storage. It is still in validation and is not generally available. Weak or ambiguous matches are surfaced only as suggestions, never as guesses.</p>
 
           <h2>Languages</h2>
           <p>Spoken language and result language are handled separately in the product. Processing providers support a broad set of languages, but transcription quality is not equal across every one of them.</p>
@@ -112,7 +120,7 @@
       <div><h4 data-i18n="footer.colCompany">Company</h4><a href="./about.html" data-i18n="nav.about">About</a><a href="./affiliates.html" data-i18n="footer.affiliates">Affiliates</a><a href="./support.html" data-i18n="footer.support">Support</a><a href="mailto:dev@memrya.co" data-i18n="nav.contact">Contact</a></div>
       <div><h4 data-i18n="footer.colLegal">Legal</h4><a href="./privacy.html" data-i18n="footer.privacy">Privacy</a><a href="./terms.html" data-i18n="footer.terms">Terms</a><a href="./security.html" data-i18n="footer.security">Security</a><a href="./accessibility.html" data-i18n="footer.accessibility">Accessibility</a><a href="./delete-account.html" data-i18n="footer.deleteAccount">Delete account</a></div>
     </div>
-    <div class="shell footer-bottom"><p data-i18n="footer.copyright">ֲ© 2026 MEMRYA. Private development.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
+    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA. Private development.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
   </footer>
   <script src="./i18n.js" defer></script>
   <script src="./script.js" defer></script>
