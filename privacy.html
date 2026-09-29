@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#e7e3da">
-  <meta name="description" content="How MEMRYA handles recordings, transcripts and account data, and what is still being finalized before public launch.">
+  <meta name="description" content="How MEMRYA handles recordings, transcripts, account data, cloud processing and deletion.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta property="og:title" content="Privacy — MEMRYA">
-  <meta property="og:description" content="How MEMRYA handles recordings, transcripts and account data, and what is still being finalized before public launch.">
+  <meta property="og:description" content="How MEMRYA handles recordings, transcripts, account data, cloud processing and deletion.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="MEMRYA">
   <meta property="og:url" content="https://memrya.co/privacy.html">
@@ -21,7 +21,7 @@
   <meta property="og:image:alt" content="MEMRYA — Your conversations, remembered.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Privacy — MEMRYA">
-  <meta name="twitter:description" content="How MEMRYA handles recordings, transcripts and account data, and what is still being finalized before public launch.">
+  <meta name="twitter:description" content="How MEMRYA handles recordings, transcripts, account data, cloud processing and deletion.">
   <meta name="twitter:image" content="https://memrya.co/assets/og-memrya-v2.png">
   <meta name="twitter:image:alt" content="MEMRYA — Your conversations, remembered.">
   <link rel="canonical" href="https://memrya.co/privacy.html">
@@ -46,7 +46,6 @@
         <a href="./index.html#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
       <div class="nav-actions">
-        <span class="status-pill"><i></i><span data-i18n="nav.status">Private development</span></span>
         <label class="locale-switch">
           <span class="sr-only" data-i18n="langswitch.label">Language</span>
           <select id="locale-switch" aria-label="Language"></select>
@@ -67,12 +66,11 @@
       </div>
       <div class="utility-grid">
         <aside class="utility-aside reveal">
-          <p>Last updated: pre-launch, private development.</p>
-          <p>This page will be revised before MEMRYA is generally available.</p>
+          <p>Last updated: September 2026.</p>
           <p>Contact: <a href="mailto:dev@memrya.co">dev@memrya.co</a></p>
         </aside>
         <div class="utility-content reveal">
-          <div class="notice">MEMRYA is currently in private development, preparing its first paid release. This page describes how the product is built today. Final retention and legal policy is still being completed and will be published before public launch.</div>
+          <div class="notice">This page explains how MEMRYA handles recordings, transcripts and account data, including cloud processing and account-level access controls.</div>
 
           <h2>What MEMRYA processes</h2>
           <p>MEMRYA's core flow is recording or importing a conversation, then uploading, transcribing and analyzing it to produce a summary, evidence and grounded answers you can search later. Audio you record or import is the basis for everything else the product creates.</p>
@@ -89,17 +87,14 @@
           <h2>Encryption</h2>
           <p>We do not claim end-to-end encryption. Data is protected through private, owner-scoped cloud storage and server-side secret handling as described above, not through an end-to-end encryption guarantee.</p>
 
-          <h2>Voice Identity</h2>
-          <p>Voice Identity — recognizing a voice across conversations — is designed for explicit enrollment and local, on-device profile storage. It is still in validation and is not generally available. Weak or ambiguous matches are surfaced only as suggestions, never as guesses.</p>
-
           <h2>Languages</h2>
           <p>Spoken language and result language are handled separately in the product. Processing providers support a broad set of languages, but transcription quality is not equal across every one of them.</p>
 
           <h2>Retention</h2>
-          <p>Final retention and legal policy is still being completed ahead of public launch. Specifics will be published here before MEMRYA is generally available.</p>
+          <p>Cloud retention and deletion follow MEMRYA controls and the applicable rules of the processing providers involved. Contact us if you have a question about a specific recording or account.</p>
 
           <h2>Export and deletion</h2>
-          <p>Account export and delete functions exist on the server side. Public-launch quality testing on those flows is still open. Until that testing is complete, you can request deletion by contacting <a href="mailto:dev@memrya.co">dev@memrya.co</a>.</p>
+          <p>To request an account export or deletion, use the <a href="./delete-account.html">Delete account</a> page or contact <a href="mailto:dev@memrya.co">dev@memrya.co</a>.</p>
 
           <h2>No analytics or trackers</h2>
           <p>This website uses no analytics, cookies, trackers or third-party JavaScript, and sets no public API keys.</p>
@@ -120,7 +115,7 @@
       <div><h4 data-i18n="footer.colCompany">Company</h4><a href="./about.html" data-i18n="nav.about">About</a><a href="./affiliates.html" data-i18n="footer.affiliates">Affiliates</a><a href="./support.html" data-i18n="footer.support">Support</a><a href="mailto:dev@memrya.co" data-i18n="nav.contact">Contact</a></div>
       <div><h4 data-i18n="footer.colLegal">Legal</h4><a href="./privacy.html" data-i18n="footer.privacy">Privacy</a><a href="./terms.html" data-i18n="footer.terms">Terms</a><a href="./security.html" data-i18n="footer.security">Security</a><a href="./accessibility.html" data-i18n="footer.accessibility">Accessibility</a><a href="./delete-account.html" data-i18n="footer.deleteAccount">Delete account</a></div>
     </div>
-    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA. Private development.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
+    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
   </footer>
   <script src="./i18n.js" defer></script>
   <script src="./script.js" defer></script>

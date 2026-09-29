@@ -1,49 +1,38 @@
 # MEMRYA
 
-> MEMRYA is an iPhone-first AI conversation memory product. Users record or import audio, which is uploaded/assembled, transcribed, and analyzed into a Summary, Evidence, and Ask view, with export/share options.
-
-## Current state
-
-MEMRYA is in private development, preparing its first paid release. The public website repo is intentionally separate from the private app repo.
+> MEMRYA is an iPhone-first AI conversation memory product. Users record or import audio, which is uploaded, transcribed and analyzed into searchable memory with summaries, evidence and grounded answers.
 
 ## Product
 
-- Core flow: record/import audio -> upload/assemble -> transcription -> analysis -> Summary/Evidence/Ask -> export/share.
+- Core flow: record/import audio -> upload -> transcription -> analysis -> Summary/Evidence/Ask -> export/share.
 - Existing audio import is a core use case.
-- Speaker diarization and contextual/name speaker identity exist today.
-- Cross-recording biometric Voice Identity is a P0 launch requirement, designed for explicit enrollment and local/on-device profile storage; it is still in validation and not marketed as generally available. Weak or ambiguous matches are surfaced only as suggestions, never guesses.
-- Not all long-form/reliability gates are finished yet.
+- Speaker diarization and contextual/name speaker identity are part of the conversation-processing flow.
+- Ask answers are designed to stay grounded in the underlying transcript and evidence.
 
 ## Languages
 
 - Public UI languages: English, Arabic, Spanish, French, German, Portuguese, Italian. Arabic renders true RTL.
-- The processing provider catalogue covers a broader set of languages than the UI, and transcription quality is not claimed to be equal across every provider-supported language.
-- Spoken Language and Result Language are separate settings; Result Language defaults to Same as conversation.
-
-## Integrations
-
-- Zoom cloud-recording import architecture exists but is not publicly enabled.
-- Google Meet integration is planned after Zoom; Microsoft Teams later. These are not presented as live integrations today.
+- Spoken Language and Result Language are separate settings; Result Language defaults to the language of the conversation.
+- Processing providers cover more languages than the public UI, and quality can vary by language and provider.
 
 ## Billing
 
 - Recording on device is intended to remain free.
 - Cloud processing consumes processing minutes.
-- Final App Store/RevenueCat prices are not yet public; no prices should be assumed.
+- Current plan details and prices are shown before purchase.
 
 ## Trust and privacy
 
-- Provider/API secrets are server-side only, never embedded in the mobile client.
+- Provider and API secrets are server-side only, never embedded in the mobile client.
 - Cloud storage is private with owner-scoped access; tenant isolation is a product invariant.
-- Processed audio/transcripts may be sent securely to approved processing providers after the user chooses processing.
-- Final retention/legal policy is still being completed before public launch.
+- Processed audio and transcripts may be sent securely to approved processing providers after the user chooses processing.
 - MEMRYA does not claim end-to-end encryption.
-- Account export/delete functions exist server-side, but public-launch QA for them is still open.
+- Account export and deletion requests can be made through the Delete account page or dev@memrya.co.
 
 ## Website
 
 - Domain: https://memrya.co
-- No analytics, cookies, third-party JavaScript, trackers, or public API keys. Strict CSP.
+- No analytics, cookies, third-party JavaScript, trackers or public API keys. Strict CSP.
 
 ## Contact
 

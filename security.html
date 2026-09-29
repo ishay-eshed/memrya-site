@@ -46,7 +46,6 @@
         <a href="./index.html#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
       <div class="nav-actions">
-        <span class="status-pill"><i></i><span data-i18n="nav.status">Private development</span></span>
         <label class="locale-switch">
           <span class="sr-only" data-i18n="langswitch.label">Language</span>
           <select id="locale-switch" aria-label="Language"></select>
@@ -67,12 +66,10 @@
       </div>
       <div class="utility-grid">
         <aside class="utility-aside reveal">
-          <p>Last updated: pre-launch, private development.</p>
-          <p>No third-party security certifications are claimed.</p>
-          <p>Contact: <a href="mailto:dev@memrya.co">dev@memrya.co</a></p>
+          <p><strong>Security contact</strong><br><a href="mailto:dev@memrya.co">dev@memrya.co</a></p>
         </aside>
         <div class="utility-content reveal">
-          <div class="notice">MEMRYA is in private development, preparing its first paid release. This page describes the security practices in place today, not a completed compliance program. We do not claim any third-party security certifications.</div>
+          <div class="notice">MEMRYA is designed to keep account data private, provider secrets server-side and tenant data isolated. The controls below describe how the service is structured.</div>
 
           <h2>Server-side secrets</h2>
           <p>Provider and API secrets used to talk to processing providers are kept server-side. They are never embedded in the mobile client, so they cannot be extracted from the app itself.</p>
@@ -88,9 +85,6 @@
 
           <h2>Processing providers</h2>
           <p>Processed audio and transcripts may be sent securely to approved processing providers, and only after you choose cloud processing for a conversation.</p>
-
-          <h2>Voice Identity</h2>
-          <p>Voice Identity is architected for explicit enrollment and local, on-device profile storage. It is still in validation and not generally available. Weak or ambiguous matches are shown only as suggestions, never as guesses.</p>
 
           <h2>Website security</h2>
           <p>This website itself enforces a strict Content-Security-Policy, uses no analytics, cookies, trackers or third-party JavaScript, and exposes no public API keys.</p>
@@ -111,7 +105,7 @@
       <div><h4 data-i18n="footer.colCompany">Company</h4><a href="./about.html" data-i18n="nav.about">About</a><a href="./affiliates.html" data-i18n="footer.affiliates">Affiliates</a><a href="./support.html" data-i18n="footer.support">Support</a><a href="mailto:dev@memrya.co" data-i18n="nav.contact">Contact</a></div>
       <div><h4 data-i18n="footer.colLegal">Legal</h4><a href="./privacy.html" data-i18n="footer.privacy">Privacy</a><a href="./terms.html" data-i18n="footer.terms">Terms</a><a href="./security.html" data-i18n="footer.security">Security</a><a href="./accessibility.html" data-i18n="footer.accessibility">Accessibility</a><a href="./delete-account.html" data-i18n="footer.deleteAccount">Delete account</a></div>
     </div>
-    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA. Private development.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
+    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
   </footer>
   <script src="./i18n.js" defer></script>
   <script src="./script.js" defer></script>

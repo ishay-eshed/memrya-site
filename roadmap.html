@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#e7e3da">
-  <meta name="description" content="Where MEMRYA is headed next — Voice Identity and Zoom import in validation, Google Meet after Zoom, Teams later. Directional, not promised dates.">
+  <meta name="description" content="Product direction for identity, conversation imports and cross-conversation memory in MEMRYA.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,7 +46,6 @@
         <a href="./index.html#faq" data-i18n="nav.faq">FAQ</a>
       </nav>
       <div class="nav-actions">
-        <span class="status-pill"><i></i><span data-i18n="nav.status">Private development</span></span>
         <label class="locale-switch">
           <span class="sr-only" data-i18n="langswitch.label">Language</span>
           <select id="locale-switch" aria-label="Language"></select>
@@ -66,24 +65,25 @@
       </div>
       <div class="utility-grid">
         <aside class="utility-aside reveal">
-          <p>This roadmap reflects direction, not commitments. We do not publish release dates for items that are still in validation or planning.</p>
+          <p>This roadmap highlights product direction without promising dates.</p>
         </aside>
         <div class="utility-content reveal">
-          <h2>In validation</h2>
-          <p><span class="validation-badge">In validation</span></p>
+          <h2>Voice and identity</h2>
           <ul>
-            <li>Voice Identity — cross-recording biometric voice recognition, designed for explicit enrollment and local, on-device profile storage. Weak or ambiguous matches will always be shown as suggestions, never as guesses.</li>
-            <li>Zoom cloud-recording import — the import architecture exists but is not yet publicly enabled.</li>
+            <li>Voice Identity — cross-recording voice recognition designed around explicit enrollment, confidence thresholds and local profile storage.</li>
           </ul>
 
-          <h2>Planned next</h2>
-          <p><span class="planned-badge">Planned next</span></p>
-          <p>Google Meet import is planned after Zoom cloud-recording import is validated and enabled.</p>
+          <h2>Conversation imports</h2>
+          <ul>
+            <li>Zoom cloud-recording import.</li>
+            <li>Google Meet import.</li>
+            <li>Microsoft Teams import.</li>
+          </ul>
 
-          <h2>Planned later</h2>
-          <p>Microsoft Teams import is planned for later, after Google Meet.</p>
+          <h2>Cross-conversation memory</h2>
+          <p>MEMRYA is designed to make people, decisions, evidence and context more useful as conversation history grows.</p>
 
-          <div class="notice">No dates are promised for any item above. Timing depends on validation results, not a fixed schedule.</div>
+          <div class="notice">Product direction may evolve as MEMRYA learns from real-world use.</div>
         </div>
       </div>
     </div>
@@ -98,7 +98,7 @@
       <div><h4 data-i18n="footer.colCompany">Company</h4><a href="./about.html" data-i18n="nav.about">About</a><a href="./affiliates.html" data-i18n="footer.affiliates">Affiliates</a><a href="./support.html" data-i18n="footer.support">Support</a><a href="mailto:dev@memrya.co" data-i18n="nav.contact">Contact</a></div>
       <div><h4 data-i18n="footer.colLegal">Legal</h4><a href="./privacy.html" data-i18n="footer.privacy">Privacy</a><a href="./terms.html" data-i18n="footer.terms">Terms</a><a href="./security.html" data-i18n="footer.security">Security</a><a href="./accessibility.html" data-i18n="footer.accessibility">Accessibility</a><a href="./delete-account.html" data-i18n="footer.deleteAccount">Delete account</a></div>
     </div>
-    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA. Private development.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
+    <div class="shell footer-bottom"><p data-i18n="footer.copyright">© 2026 MEMRYA.</p><label class="locale-switch footer-locale"><span class="sr-only" data-i18n="langswitch.label">Language</span><select class="locale-switch-control" aria-label="Language"></select></label></div>
   </footer>
   <script src="./i18n.js" defer></script>
   <script src="./script.js" defer></script>
