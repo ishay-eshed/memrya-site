@@ -16,7 +16,7 @@ MEMRYA is in private development, preparing its first paid release. The public w
 
 ## Languages
 
-- Public UI languages: English, Hebrew, Arabic, Spanish, French, German, Portuguese, Italian. Hebrew and Arabic render true RTL.
+- Public UI languages: English, Arabic, Spanish, French, German, Portuguese, Italian. Arabic renders true RTL.
 - The processing provider catalogue covers a broader set of languages than the UI, and transcription quality is not claimed to be equal across every provider-supported language.
 - Spoken Language and Result Language are separate settings; Result Language defaults to Same as conversation.
 

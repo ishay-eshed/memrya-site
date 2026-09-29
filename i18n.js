@@ -3,7 +3,6 @@ window.MEMRYA_I18N = (() => {
 
   const locales = [
     { code: 'en', name: 'English', dir: 'ltr' },
-    { code: 'he', name: 'עברית', dir: 'rtl' },
     { code: 'ar', name: 'العربية', dir: 'rtl' },
     { code: 'es', name: 'Español', dir: 'ltr' },
     { code: 'fr', name: 'Français', dir: 'ltr' },
@@ -102,7 +101,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'Multilingual',
       'multilingual.title': 'Your conversations, in your languages.',
-      'multilingual.desc': 'The MEMRYA interface is available in eight languages, including true right-to-left support for Hebrew and Arabic. Spoken language and result language are handled separately, and results default to the language of the conversation.',
+      'multilingual.desc': 'The MEMRYA interface is available in seven languages, including true right-to-left support for Arabic. Spoken language and result language are handled separately, and results default to the language of the conversation.',
       'multilingual.cta': 'Try the language switcher above.',
 
       // import / integrations
@@ -162,7 +161,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'Is Voice Identity available now?',
       'faq.a2': 'Not yet. Voice Identity is designed for explicit enrollment and on-device profile storage, and it is still in validation. Weak or ambiguous matches are shown as suggestions, never guesses.',
       'faq.q3': 'Which languages does MEMRYA support?',
-      'faq.a3': 'The interface is available in English, Hebrew, Arabic, Spanish, French, German, Portuguese and Italian, with true right-to-left layout for Hebrew and Arabic. The processing providers behind transcription cover a broader set of languages, though quality is not equal across every one of them.',
+      'faq.a3': 'The interface is available in English, Arabic, Spanish, French, German, Portuguese and Italian, with true right-to-left layout for Arabic. The processing providers behind transcription cover a broader set of languages, though quality is not equal across every one of them.',
       'faq.q4': 'Can I import from Zoom or Google Meet?',
       'faq.a4': 'Zoom cloud-recording import architecture exists but is not yet publicly enabled. Google Meet is planned after Zoom, and Microsoft Teams later. Importing existing audio you already have works today.',
       'faq.q5': 'How much will MEMRYA cost?',
@@ -200,7 +199,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Language',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -255,247 +253,6 @@ window.MEMRYA_I18N = (() => {
       'status.zoomImportState': 'In validation, not publicly enabled',
     },
 
-    he: {
-      // nav
-      'nav.product': 'מוצר',
-      'nav.pricing': 'תמחור',
-      'nav.about': 'אודות',
-      'nav.faq': 'שאלות נפוצות',
-      'nav.contact': 'יצירת קשר',
-      'nav.status': 'בפיתוח פרטי',
-
-      // hero
-      'hero.eyebrow': 'זיכרון של שיחות, לא רק פתקים',
-      'hero.title1': 'השיחות שלך,',
-      'hero.title2': 'זכורות.',
-      'hero.lede': 'הקליטו או ייבאו שיחה. MEMRYA הופכת אותה לזיכרון ניתן לחיפוש — עם תמליל, סיכום, החלטות, משימות, אנשים וראיות שאפשר לחזור אליהם.',
-      'hero.cta': 'הצטרפו לבטא הפרטית',
-      'hero.seeMore': 'ראו מה MEMRYA זוכרת',
-      'hero.proof1': 'זיהוי שפה אוטומטי',
-      'hero.proof2': 'זיהוי דוברים',
-      'hero.proof3': 'תשובות AI מבוססות מקור',
-      'hero.phoneLabel': 'זיכרון בזמן אמת',
-      'hero.phoneTitle': 'שיחת מוצר',
-      'hero.recording': 'מקליט',
-      'hero.speakerAName': 'ישי',
-      'hero.speakerAQuote': '"אם זה זוכר גם את האנשים, זה משנה הכול."',
-      'hero.speakerBName': 'רותם',
-      'hero.speakerBQuote': '"אז לשיחה הבאה כבר יש הקשר."',
-      'hero.noticedLabel': 'MEMRYA שמה לב',
-      'hero.noticedText': 'זהות קולית אמורה להישמר גם בשיחות עתידיות.',
-      'hero.evidenceLabel': 'ראיה מקושרת ל־02:41–02:49',
-      'hero.summaryKicker': 'סיכום',
-      'hero.summaryTitle': '3 החלטות תועדו',
-      'hero.summaryText': 'זהות קולית, העדפת שפה וזום נשארות בראש סדר העדיפויות להשקה.',
-      'hero.askKicker': 'שאלו את MEMRYA',
-      'hero.askQuestion': '"מה החלטנו לגבי זיהוי דוברים?"',
-      'hero.askAnswer': 'להשתמש בזהות קולית רק כשרמת הביטחון גבוהה — אחרת להציע, לעולם לא לנחש.',
-
-      // how it works
-      'howitworks.eyebrow': 'איך זה עובד',
-      'howitworks.title': 'משיחה לזיכרון בארבעה שלבים.',
-      'howitworks.step1Num': '01',
-      'howitworks.step1Title': 'תיעוד השיחה',
-      'howitworks.step1Desc': 'הקליטו באייפון או ייבאו הקלטה קיימת — הקלטה במכשיר נשארת חינמית.',
-      'howitworks.step2Num': '02',
-      'howitworks.step2Title': 'הבנת מה שחשוב',
-      'howitworks.step2Desc': 'עיבוד בענן מתמלל ומנתח את השיחה תוך שימוש בדקות עיבוד.',
-      'howitworks.step3Num': '03',
-      'howitworks.step3Title': 'זכירת אנשים והקשר',
-      'howitworks.step3Desc': 'דוברים, החלטות ושאלות פתוחות מאורגנים כך שדבר לא הולך לאיבוד.',
-      'howitworks.step4Num': '04',
-      'howitworks.step4Title': 'שאלו על העבר שלכם',
-      'howitworks.step4Desc': 'שאלו שאלה וקבלו תשובה מבוססת על התמליל המקורי, עם ראיות.',
-
-      // feature storytelling
-      'features.eyebrow': 'מה יש בתוך זיכרון',
-      'features.title1': 'לא עוד ערימת תמלילים.',
-      'features.title2': 'שיחה שאפשר להשתמש בה מאוחר יותר.',
-      'features.card1Title': 'דעו מי אמר מה.',
-      'features.card1Desc': 'זיהוי דוברים מפריד בין קולות. MEMRYA יכולה לקשר שמות מתוך ההקשר, ובמקביל זהות קולית במכשיר נמצאת בבדיקה לזיהוי אמין בין שיחות.',
-      'features.card2Title': 'תשובות עם קבלות.',
-      'features.card2Desc': 'סיכומים, החלטות ותשובות של Ask מקושרים בחזרה לתמליל, כך שתוכלו לבדוק את המקור במקום לסמוך על קופסה שחורה.',
-      'features.card2CiteLabel': 'החלטה',
-      'features.card2CiteText': 'להשיק את Zoom אחרי בדיקת האיכות של זהות קולית.',
-      'features.card2CiteMeta': '↗ 12:08 · ראיה תומכת',
-      'features.card3Title': 'הזיכרון מצטבר.',
-      'features.card3Desc': 'אנשים, התחייבויות, שאלות פתוחות ורגעים חשובים הופכים לשימושיים יותר ככל שהיסטוריית השיחות שלכם גדלה.',
-      'features.stackPeople': 'אנשים',
-      'features.stackLoops': 'נושאים פתוחים',
-      'features.stackKept': 'זיכרונות שמורים',
-      'features.personA': 'ישי',
-      'features.personB': 'רותם',
-      'features.personC': 'דובר 3',
-
-      // voice identity
-      'voice.eyebrow': 'זהות קולית',
-      'voice.title': 'זיהוי קול לאורך שיחות — בזהירות.',
-      'voice.badge': 'בבדיקה',
-      'voice.desc': 'זהות קולית מיועדת להרשמה מפורשת ולאחסון פרופיל מקומי, במכשיר. היא עדיין בשלב בדיקה ואינה זמינה לכלל המשתמשים.',
-      'voice.point1': 'אתם בוחרים לרשום קול — שום דבר לא מזוהה בלי הפעולה שלכם.',
-      'voice.point2': 'הפרופילים מיועדים להישמר במכשיר.',
-      'voice.point3': 'התאמות חלשות או לא ודאיות מוצגות כהצעות בלבד, ולעולם לא כוודאות.',
-
-      // people / cross-conversation memory
-      'people.eyebrow': 'אנשים, לא רק תמלילים',
-      'people.title': 'האנשים בשיחות שלכם הופכים לחלק מהזיכרון שלכם.',
-      'people.desc': 'MEMRYA עוקבת אחרי מי היה בשיחה ומה היה חשוב להם, כך שההקשר יכול להימשך גם לשיחות הבאות.',
-
-      // multilingual
-      'multilingual.eyebrow': 'רב-לשוני',
-      'multilingual.title': 'השיחות שלכם, בשפות שלכם.',
-      'multilingual.desc': 'ממשק MEMRYA זמין בשמונה שפות, כולל תמיכה אמיתית מימין לשמאל בעברית ובערבית. שפת הדיבור ושפת התוצאה מטופלות בנפרד, והתוצאות מוצגות כברירת מחדל בשפת השיחה.',
-      'multilingual.cta': 'נסו את בורר השפה למעלה.',
-
-      // import / integrations
-      'integrations.eyebrow': 'ייבוא ואינטגרציות',
-      'integrations.title': 'הביאו שיחות מהמקומות שבהם הן כבר קורות.',
-      'integrations.audioTitle': 'ייבוא הקלטות קיימות',
-      'integrations.audioDesc': 'ייבאו הקלטות שכבר יש לכם — דרך זמינה וליבתית לבניית זיכרון ב-MEMRYA.',
-      'integrations.audioBadge': 'זמין',
-      'integrations.zoomTitle': 'הקלטות ענן של Zoom',
-      'integrations.zoomDesc': 'הארכיטקטורה לייבוא הקלטות ענן מ-Zoom קיימת ונמצאת בבדיקה לפני פתיחה לציבור.',
-      'integrations.zoomBadge': 'בבדיקה',
-      'integrations.meetTitle': 'Google Meet',
-      'integrations.meetDesc': 'מתוכנן לאחר שייבוא Zoom יאומת ויופעל.',
-      'integrations.meetBadge': 'בתכנון הבא',
-      'integrations.teamsNote': 'ייבוא מ-Microsoft Teams מתוכנן להמשך הדרך.',
-
-      // real-life use cases
-      'usecases.eyebrow': 'נבנה לשיחות אמיתיות',
-      'usecases.title': 'פגישות הן רק סוג אחד של זיכרון.',
-      'usecases.desc': 'השתמשו ב-MEMRYA לשיחות עבודה, סיפורים משפחתיים, רעיונות תוך כדי תנועה, פגישות, ראיונות, מפגשי לימוד וכל דבר אחר שלא הייתם רוצים לאבד.',
-      'usecases.morningTitle': 'שיחות עבודה',
-      'usecases.morningDesc': 'צאו מהשיחה כשההחלטות, האחראים והמשימות להמשך נשארים ברורים.',
-      'usecases.middayTitle': 'פגישות חשובות',
-      'usecases.middayDesc': 'זכרו את ההנחיות, השאלות והפרטים שרציתם לחזור אליהם.',
-      'usecases.eveningTitle': 'שיחות אישיות',
-      'usecases.eveningDesc': 'שמרו את השמות, הסיפורים והמחויבויות שהופכים שיחה למשמעותית.',
-      'usecases.nightTitle': 'לילה',
-      'usecases.nightDesc': 'שאלו את MEMRYA מה היה חשוב באותו יום.',
-      'usecases.noteLabel': 'זכרו את זה',
-      'usecases.noteText': 'אבא אמר שהוא עבד בנמל כשהיה בן 19.',
-      'usecases.noteMeta': 'נשמר ישירות על ידכם',
-
-      // trust / privacy
-      'trust.eyebrow': 'נבנה מתוך אמון',
-      'trust.title': 'הזיכרון שלכם צריך להרגיש שלכם.',
-      'trust.point1': 'אתם מחליטים מתי ההקלטה מתחילה.',
-      'trust.point2': 'הראיות נשארות מקושרות לשיחה המקורית.',
-      'trust.point3': 'זהות קולית מיועדת לפעול במכשיר ומחייבת הרשמה מפורשת.',
-      'trust.point4': 'סודות של ספקים וממשקי API נשארים בצד השרת ולעולם לא משובצים באפליקציית המובייל.',
-      'trust.point5': 'אחסון הענן פרטי, מוגבל לבעל החשבון ומבודד בין דיירים (tenants).',
-
-      // pricing approach (homepage section)
-      'pricing.eyebrow': 'גישת התמחור',
-      'pricing.title': 'פשוט מעצם התכנון — מחירים סופיים בהשקה.',
-      'pricing.onDeviceTitle': 'הקלטה במכשיר',
-      'pricing.onDeviceDesc': 'הקלטה במכשיר שלכם מיועדת להישאר חינמית.',
-      'pricing.cloudTitle': 'עיבוד בענן',
-      'pricing.cloudDesc': 'תמלול וניתוח משתמשים בדקות עיבוד.',
-      'pricing.launchTitle': 'תמחור בהשקה',
-      'pricing.launchDesc': 'מחירי App Store והמנוי הסופיים עדיין אינם פומביים — לא ננחש אותם כאן.',
-
-      // faq
-      'faq.eyebrow': 'שאלות נפוצות',
-      'faq.title': 'שאלות ששווה לענות עליהן מראש.',
-      'faq.q1': 'מה בעצם MEMRYA מקליטה ושומרת?',
-      'faq.a1': 'MEMRYA הופכת שיחה מוקלטת או מיובאת לתמליל, סיכום, החלטות, אנשים וראיות שניתן לחפש מאוחר יותר. אחסון הענן פרטי והגישה אליו מוגבלת לבעל החשבון.',
-      'faq.q2': 'האם זהות קולית זמינה כבר עכשיו?',
-      'faq.a2': 'עדיין לא. זהות קולית מיועדת להרשמה מפורשת ולאחסון פרופיל במכשיר, והיא עדיין בשלב בדיקה. התאמות חלשות או לא ודאיות מוצגות כהצעות בלבד, לעולם לא כניחושים.',
-      'faq.q3': 'באילו שפות MEMRYA תומכת?',
-      'faq.a3': 'הממשק זמין באנגלית, עברית, ערבית, ספרדית, צרפתית, גרמנית, פורטוגזית ואיטלקית, עם פריסה אמיתית מימין לשמאל בעברית ובערבית. ספקי העיבוד שמאחורי התמלול תומכים במגוון רחב יותר של שפות, אך האיכות אינה זהה בכולן.',
-      'faq.q4': 'אפשר לייבא מ-Zoom או מ-Google Meet?',
-      'faq.a4': 'הארכיטקטורה לייבוא הקלטות ענן מ-Zoom קיימת אך עדיין אינה פתוחה לציבור. Google Meet מתוכנן לאחר Zoom, ו-Microsoft Teams בהמשך. ייבוא הקלטות קיימות שכבר יש לכם עובד כבר היום.',
-      'faq.q5': 'כמה MEMRYA תעלה?',
-      'faq.a5': 'הקלטה במכשיר מיועדת להישאר חינמית. עיבוד בענן משתמש בדקות עיבוד. התמחור הסופי של App Store והמנוי עדיין לא נקבע פומבית.',
-      'faq.q6': 'האם הנתונים שלי מוצפנים מקצה לקצה?',
-      'faq.a6': 'אנחנו לא טוענים להצפנה מקצה לקצה. אחסון הענן פרטי ומוגבל לחשבון שלכם, סודות הספקים נשארים בצד השרת, ובידוד בין דיירים (tenants) הוא עיקרון יסוד במוצר.',
-      'faq.q7': 'כמה זמן הנתונים שלי נשמרים?',
-      'faq.a7': 'מדיניות השמירה והמשפטית הסופית עדיין בתהליך השלמה לקראת ההשקה הפומבית. נפרסם פרטים מדויקים לפני ש-MEMRYA תהיה זמינה לכלל הציבור.',
-      'faq.q8': 'אפשר למחוק את החשבון והנתונים שלי?',
-      'faq.a8': 'פונקציות ייצוא ומחיקת חשבון קיימות בצד השרת. בדיקות האיכות לקראת ההשקה הפומבית של תהליכים אלו עדיין פתוחות, אז פנו ל-dev@memrya.co כדי לבקש מחיקה כבר היום.',
-
-      // final cta
-      'cta.eyebrow': 'בפיתוח פרטי',
-      'cta.title': 'MEMRYA נבנית עכשיו.',
-      'cta.desc': 'אנחנו מכינים את ההשקה הראשונה בתשלום ובודקים את החלקים שהופכים את זיכרון השיחות לאמין מספיק כדי לשמור עליו.',
-      'cta.button': 'dev@memrya.co',
-
-      // deep footer
-      'footer.tagline': 'זיכרון של שיחות, לא רק פתקים.',
-      'footer.colProduct': 'מוצר',
-      'footer.colCompany': 'חברה',
-      'footer.colLegal': 'משפטי',
-      'footer.changelog': 'יומן שינויים',
-      'footer.roadmap': 'מפת דרכים',
-      'footer.status': 'סטטוס',
-      'footer.affiliates': 'שותפים',
-      'footer.support': 'תמיכה',
-      'footer.privacy': 'פרטיות',
-      'footer.terms': 'תנאי שימוש',
-      'footer.security': 'אבטחה',
-      'footer.accessibility': 'נגישות',
-      'footer.deleteAccount': 'מחיקת חשבון',
-      'footer.copyright': '© 2026 MEMRYA. בפיתוח פרטי.',
-
-      // language switcher
-      'langswitch.label': 'שפה',
-      'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
-      'langswitch.ar': 'العربية',
-      'langswitch.es': 'Español',
-      'langswitch.fr': 'Français',
-      'langswitch.de': 'Deutsch',
-      'langswitch.pt': 'Português',
-      'langswitch.it': 'Italiano',
-
-      // reusable status/availability badges
-      'badge.available': 'זמין',
-      'badge.inValidation': 'בבדיקה',
-      'badge.plannedNext': 'בתכנון הבא',
-      'badge.plannedLater': 'מתוכנן להמשך',
-      'badge.comingSoon': 'בקרוב',
-
-      // utility-page titles / intros
-      'page.about.title': 'אודות MEMRYA',
-      'page.about.intro': 'MEMRYA היא אפליקציית זיכרון שיחות מבוססת AI שמיועדת בראש ובראשונה לאייפון, כרגע בפיתוח פרטי לקראת ההשקה הראשונה בתשלום.',
-      'page.pricing.title': 'תמחור',
-      'page.pricing.intro': 'גישת תמחור פשוטה, עם מחירים סופיים שייקבעו קרוב יותר להשקה.',
-      'page.privacy.title': 'פרטיות',
-      'page.privacy.intro': 'איך MEMRYA מטפלת בהקלטות, בתמלילים ובנתוני החשבון שלכם.',
-      'page.terms.title': 'תנאי שימוש',
-      'page.terms.intro': 'תנאים המותאמים לשלב הבטא הפרטית ולתקופה שלפני ההשקה של MEMRYA.',
-      'page.security.title': 'אבטחה',
-      'page.security.intro': 'איך MEMRYA מגנה על סודות, אחסון ובידוד בין דיירים (tenants).',
-      'page.support.title': 'תמיכה',
-      'page.support.intro': 'צרו קשר עם צוות MEMRYA ישירות בזמן שאנחנו בפיתוח פרטי.',
-      'page.deleteAccount.title': 'מחיקת חשבון',
-      'page.deleteAccount.intro': 'איך לבקש מחיקה של חשבון ה-MEMRYA והנתונים שלכם.',
-      'page.accessibility.title': 'נגישות',
-      'page.accessibility.intro': 'התחייבויות הנגישות שהגרסה הנוכחית של MEMRYA באמת עומדת בהן.',
-      'page.affiliates.title': 'שותפים',
-      'page.affiliates.intro': 'תוכנית "הפנה וזכה" תגיע בקרוב — הפרטים עדיין לא סופיים.',
-      'page.changelog.title': 'יומן שינויים',
-      'page.changelog.intro': 'מה השתנה בזמן ש-MEMRYA נמצאת בפיתוח פרטי.',
-      'page.roadmap.title': 'מפת דרכים',
-      'page.roadmap.intro': 'לאן MEMRYA הולכת הלאה — כיוון כללי, לא תאריכים מובטחים.',
-      'page.status.title': 'סטטוס',
-      'page.status.intro': 'עדיין אין ערוץ סטטוס פומבי בזמן אמת. הנה המצב נכון להיום.',
-
-      // status page labels
-      'status.privateDevelopment': 'בפיתוח פרטי',
-      'status.noPublicFeed': 'עדיין אין ערוץ סטטוס פומבי בזמן אמת',
-      'status.contactNote': 'אם אתם נתקלים בבעיה, צרו קשר עם dev@memrya.co.',
-      'status.recording': 'הקלטה במכשיר',
-      'status.recordingState': 'פועל כרגיל',
-      'status.cloudProcessing': 'עיבוד בענן',
-      'status.cloudProcessingState': 'פועל כרגיל',
-      'status.voiceIdentity': 'זהות קולית',
-      'status.voiceIdentityState': 'בבדיקה',
-      'status.zoomImport': 'ייבוא Zoom',
-      'status.zoomImportState': 'בבדיקה, לא פתוח לציבור עדיין',
-    },
     ar: {
       // nav
       'nav.product': 'المنتج',
@@ -585,7 +342,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'متعدد اللغات',
       'multilingual.title': 'محادثاتك، بلغاتك.',
-      'multilingual.desc': 'واجهة MEMRYA متاحة بثماني لغات، بما في ذلك دعم حقيقي للكتابة من اليمين إلى اليسار للعربية والعبرية. تُعالج لغة الحديث ولغة النتائج بشكل منفصل، وتُعرض النتائج افتراضيًا بلغة المحادثة نفسها.',
+      'multilingual.desc': 'واجهة MEMRYA متاحة بسبع لغات، بما في ذلك دعم حقيقي للكتابة من اليمين إلى اليسار للعربية. تُعالج لغة الحديث ولغة النتائج بشكل منفصل، وتُعرض النتائج افتراضيًا بلغة المحادثة نفسها.',
       'multilingual.cta': 'جرّب مبدّل اللغة أعلاه.',
 
       // import / integrations
@@ -645,7 +402,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'هل هوية الصوت متاحة الآن؟',
       'faq.a2': 'ليس بعد. صُممت هوية الصوت للتسجيل الصريح وتخزين الملف الشخصي على الجهاز، ولا تزال قيد التحقق. تُعرض التطابقات الضعيفة أو غير المؤكدة كاقتراحات فقط، وليست تخمينات أبدًا.',
       'faq.q3': 'ما هي اللغات التي تدعمها MEMRYA؟',
-      'faq.a3': 'الواجهة متاحة بالإنجليزية والعبرية والعربية والإسبانية والفرنسية والألمانية والبرتغالية والإيطالية، مع تخطيط حقيقي من اليمين إلى اليسار للعبرية والعربية. تغطي جهات معالجة التفريغ الصوتي مجموعة أوسع من اللغات، لكن الجودة ليست متساوية بينها جميعًا.',
+      'faq.a3': 'الواجهة متاحة بالإنجليزية والعربية والإسبانية والفرنسية والألمانية والبرتغالية والإيطالية، مع تخطيط حقيقي من اليمين إلى اليسار للعربية. تغطي جهات معالجة التفريغ الصوتي مجموعة أوسع من اللغات، لكن الجودة ليست متساوية بينها جميعًا.',
       'faq.q4': 'هل يمكنني الاستيراد من Zoom أو Google Meet؟',
       'faq.a4': 'بنية استيراد تسجيلات Zoom السحابية موجودة لكنها غير مفعَّلة للعموم بعد. Google Meet مخطط له بعد Zoom، وMicrosoft Teams لاحقًا. استيراد التسجيلات الصوتية التي لديك بالفعل يعمل اليوم.',
       'faq.q5': 'كم ستكلّف MEMRYA؟',
@@ -683,7 +440,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'اللغة',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -826,7 +582,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'MULTILINGÜE',
       'multilingual.title': 'Tus conversaciones, en tus idiomas.',
-      'multilingual.desc': 'La interfaz de MEMRYA está disponible en ocho idiomas, incluido soporte real de derecha a izquierda para hebreo y árabe. El idioma hablado y el idioma de resultados se gestionan por separado, y los resultados usan por defecto el idioma de la conversación.',
+      'multilingual.desc': 'La interfaz de MEMRYA está disponible en siete idiomas, incluido soporte real de derecha a izquierda para árabe. El idioma hablado y el idioma de resultados se gestionan por separado, y los resultados usan por defecto el idioma de la conversación.',
       'multilingual.cta': 'Prueba el selector de idioma de arriba.',
 
       // import / integrations
@@ -886,7 +642,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': '¿Está disponible la identidad de voz ahora?',
       'faq.a2': 'Todavía no. La identidad de voz está diseñada para una inscripción explícita y almacenamiento del perfil en el dispositivo, y todavía está en validación. Las coincidencias débiles o ambiguas se muestran como sugerencias, nunca como adivinanzas.',
       'faq.q3': '¿Qué idiomas admite MEMRYA?',
-      'faq.a3': 'La interfaz está disponible en inglés, hebreo, árabe, español, francés, alemán, portugués e italiano, con un diseño real de derecha a izquierda para hebreo y árabe. Los proveedores de procesamiento detrás de la transcripción cubren un conjunto más amplio de idiomas, aunque la calidad no es igual en todos ellos.',
+      'faq.a3': 'La interfaz está disponible en inglés, árabe, español, francés, alemán, portugués e italiano, con un diseño real de derecha a izquierda para árabe. Los proveedores de procesamiento detrás de la transcripción cubren un conjunto más amplio de idiomas, aunque la calidad no es igual en todos ellos.',
       'faq.q4': '¿Puedo importar desde Zoom o Google Meet?',
       'faq.a4': 'La arquitectura de importación de grabaciones en la nube de Zoom existe pero aún no está habilitada públicamente. Google Meet está planeado después de Zoom, y Microsoft Teams más adelante. Importar el audio que ya tienes funciona hoy.',
       'faq.q5': '¿Cuánto costará MEMRYA?',
@@ -924,7 +680,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Idioma',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -1068,7 +823,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'MULTILINGUE',
       'multilingual.title': 'Vos conversations, dans vos langues.',
-      'multilingual.desc': 'L\'interface MEMRYA est disponible en huit langues, avec une véritable prise en charge de droite à gauche pour l\'hébreu et l\'arabe. La langue parlée et la langue des résultats sont gérées séparément, et les résultats utilisent par défaut la langue de la conversation.',
+      'multilingual.desc': 'L\'interface MEMRYA est disponible en sept langues, avec une véritable prise en charge de droite à gauche pour l\'arabe. La langue parlée et la langue des résultats sont gérées séparément, et les résultats utilisent par défaut la langue de la conversation.',
       'multilingual.cta': 'Essayez le sélecteur de langue ci-dessus.',
 
       // import / integrations
@@ -1128,7 +883,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'L\'identité vocale est-elle disponible maintenant ?',
       'faq.a2': 'Pas encore. L\'identité vocale est conçue pour une inscription explicite et un stockage du profil sur l\'appareil, et elle est encore en validation. Les correspondances faibles ou ambiguës sont présentées comme des suggestions, jamais comme des suppositions.',
       'faq.q3': 'Quelles langues MEMRYA prend-il en charge ?',
-      'faq.a3': 'L\'interface est disponible en anglais, hébreu, arabe, espagnol, français, allemand, portugais et italien, avec une véritable mise en page de droite à gauche pour l\'hébreu et l\'arabe. Les fournisseurs de traitement derrière la transcription couvrent un ensemble plus large de langues, bien que la qualité ne soit pas égale pour chacune d\'elles.',
+      'faq.a3': 'L\'interface est disponible en anglais, arabe, espagnol, français, allemand, portugais et italien, avec une véritable mise en page de droite à gauche pour l\'arabe. Les fournisseurs de traitement derrière la transcription couvrent un ensemble plus large de langues, bien que la qualité ne soit pas égale pour chacune d\'elles.',
       'faq.q4': 'Puis-je importer depuis Zoom ou Google Meet ?',
       'faq.a4': 'L\'architecture d\'importation des enregistrements cloud Zoom existe mais n\'est pas encore activée publiquement. Google Meet est prévu après Zoom, et Microsoft Teams plus tard. L\'importation d\'un audio que vous possédez déjà fonctionne dès aujourd\'hui.',
       'faq.q5': 'Combien coûtera MEMRYA ?',
@@ -1166,7 +921,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Langue',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -1310,7 +1064,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'MEHRSPRACHIG',
       'multilingual.title': 'Deine Gespräche, in deinen Sprachen.',
-      'multilingual.desc': 'Die MEMRYA-Oberfläche ist in acht Sprachen verfügbar, einschließlich echter Rechts-nach-links-Unterstützung für Hebräisch und Arabisch. Gesprochene Sprache und Ergebnissprache werden getrennt behandelt, und Ergebnisse verwenden standardmäßig die Sprache des Gesprächs.',
+      'multilingual.desc': 'Die MEMRYA-Oberfläche ist in sieben Sprachen verfügbar, einschließlich echter Rechts-nach-links-Unterstützung für Arabisch. Gesprochene Sprache und Ergebnissprache werden getrennt behandelt, und Ergebnisse verwenden standardmäßig die Sprache des Gesprächs.',
       'multilingual.cta': 'Probiere den Sprachumschalter oben aus.',
 
       // import / integrations
@@ -1370,7 +1124,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'Ist die Stimmidentität jetzt verfügbar?',
       'faq.a2': 'Noch nicht. Die Stimmidentität ist für eine explizite Registrierung und geräteinterne Profilspeicherung konzipiert und befindet sich noch in der Validierung. Schwache oder mehrdeutige Übereinstimmungen werden als Vorschläge angezeigt, nie als Vermutungen.',
       'faq.q3': 'Welche Sprachen unterstützt MEMRYA?',
-      'faq.a3': 'Die Oberfläche ist in Englisch, Hebräisch, Arabisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch verfügbar, mit echtem Rechts-nach-links-Layout für Hebräisch und Arabisch. Die Verarbeitungsanbieter hinter der Transkription decken einen breiteren Sprachumfang ab, wobei die Qualität nicht bei jeder Sprache gleich ist.',
+      'faq.a3': 'Die Oberfläche ist in Englisch, Arabisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch verfügbar, mit echtem Rechts-nach-links-Layout für Arabisch. Die Verarbeitungsanbieter hinter der Transkription decken einen breiteren Sprachumfang ab, wobei die Qualität nicht bei jeder Sprache gleich ist.',
       'faq.q4': 'Kann ich aus Zoom oder Google Meet importieren?',
       'faq.a4': 'Die Architektur für den Import von Zoom-Cloud-Aufzeichnungen existiert, ist aber noch nicht öffentlich aktiviert. Google Meet ist nach Zoom geplant, Microsoft Teams später. Der Import bereits vorhandenen Audios funktioniert schon heute.',
       'faq.q5': 'Wie viel wird MEMRYA kosten?',
@@ -1408,7 +1162,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Sprache',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -1552,7 +1305,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'MULTILÍNGUE',
       'multilingual.title': 'Suas conversas, nos seus idiomas.',
-      'multilingual.desc': 'A interface da MEMRYA está disponível em oito idiomas, incluindo suporte real da direita para a esquerda para hebraico e árabe. O idioma falado e o idioma dos resultados são tratados separadamente, e os resultados usam por padrão o idioma da conversa.',
+      'multilingual.desc': 'A interface da MEMRYA está disponível em sete idiomas, incluindo suporte real da direita para a esquerda para árabe. O idioma falado e o idioma dos resultados são tratados separadamente, e os resultados usam por padrão o idioma da conversa.',
       'multilingual.cta': 'Experimente o seletor de idioma acima.',
 
       // import / integrations
@@ -1612,7 +1365,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': 'A identidade de voz está disponível agora?',
       'faq.a2': 'Ainda não. A identidade de voz é projetada para inscrição explícita e armazenamento do perfil no dispositivo, e ainda está em validação. Correspondências fracas ou ambíguas são mostradas como sugestões, nunca como suposições.',
       'faq.q3': 'Quais idiomas a MEMRYA suporta?',
-      'faq.a3': 'A interface está disponível em inglês, hebraico, árabe, espanhol, francês, alemão, português e italiano, com layout real da direita para a esquerda para hebraico e árabe. Os provedores de processamento por trás da transcrição cobrem um conjunto mais amplo de idiomas, embora a qualidade não seja igual em todos eles.',
+      'faq.a3': 'A interface está disponível em inglês, árabe, espanhol, francês, alemão, português e italiano, com layout real da direita para a esquerda para árabe. Os provedores de processamento por trás da transcrição cobrem um conjunto mais amplo de idiomas, embora a qualidade não seja igual em todos eles.',
       'faq.q4': 'Posso importar do Zoom ou do Google Meet?',
       'faq.a4': 'A arquitetura de importação de gravações na nuvem do Zoom existe, mas ainda não está ativada publicamente. O Google Meet está planejado após o Zoom, e o Microsoft Teams mais tarde. A importação de áudio que você já tem funciona hoje.',
       'faq.q5': 'Quanto vai custar a MEMRYA?',
@@ -1650,7 +1403,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Idioma',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
@@ -1794,7 +1546,7 @@ window.MEMRYA_I18N = (() => {
       // multilingual
       'multilingual.eyebrow': 'MULTILINGUE',
       'multilingual.title': 'Le tue conversazioni, nelle tue lingue.',
-      'multilingual.desc': 'L\'interfaccia di MEMRYA è disponibile in otto lingue, incluso un vero supporto da destra a sinistra per ebraico e arabo. La lingua parlata e la lingua dei risultati sono gestite separatamente, e i risultati usano di default la lingua della conversazione.',
+      'multilingual.desc': 'L\'interfaccia di MEMRYA è disponibile in sette lingue, incluso un vero supporto da destra a sinistra per arabo. La lingua parlata e la lingua dei risultati sono gestite separatamente, e i risultati usano di default la lingua della conversazione.',
       'multilingual.cta': 'Prova il selettore della lingua qui sopra.',
 
       // import / integrations
@@ -1854,7 +1606,7 @@ window.MEMRYA_I18N = (() => {
       'faq.q2': "L'identità vocale è disponibile adesso?",
       'faq.a2': "L'identità vocale è progettata per l'iscrizione esplicita e l'archiviazione del profilo sul dispositivo, ed è ancora in validazione. Le corrispondenze deboli o ambigue vengono mostrate come suggerimenti, mai come supposizioni.",
       'faq.q3': 'Quali lingue supporta MEMRYA?',
-      'faq.a3': "L'interfaccia è disponibile in inglese, ebraico, arabo, spagnolo, francese, tedesco, portoghese e italiano, con un vero layout da destra a sinistra per ebraico e arabo. I fornitori di elaborazione dietro la trascrizione coprono un insieme più ampio di lingue, anche se la qualità non è uguale per ognuna di esse.",
+      'faq.a3': "L'interfaccia è disponibile in inglese, arabo, spagnolo, francese, tedesco, portoghese e italiano, con un vero layout da destra a sinistra per arabo. I fornitori di elaborazione dietro la trascrizione coprono un insieme più ampio di lingue, anche se la qualità non è uguale per ognuna di esse.",
       'faq.q4': 'Posso importare da Zoom o Google Meet?',
       'faq.a4': "L'architettura di importazione delle registrazioni cloud di Zoom esiste ma non è ancora attivata pubblicamente. Google Meet è pianificato dopo Zoom, e Microsoft Teams più avanti. L'importazione di audio che hai già funziona da oggi.",
       'faq.q5': 'Quanto costerà MEMRYA?',
@@ -1892,7 +1644,6 @@ window.MEMRYA_I18N = (() => {
       // language switcher
       'langswitch.label': 'Lingua',
       'langswitch.en': 'English',
-      'langswitch.he': 'עברית',
       'langswitch.ar': 'العربية',
       'langswitch.es': 'Español',
       'langswitch.fr': 'Français',
